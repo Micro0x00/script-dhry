@@ -17,7 +17,7 @@ def main():
     try:
         initialize_mixer()
         while True:
-            alert_interval = 3 * 60
+            alert_interval = 30 * 60
             alert_triggered = False
             
             input("Press any key to start the countdown...")
